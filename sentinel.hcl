@@ -15,7 +15,7 @@ policy "restrict-ec2-instance-type" {
   enforcement_level = "soft-mandatory"
 }
 
-olicy "validate-providers-from-desired-regions" {
+policy "validate-providers-from-desired-regions" {
   source = "./validate-providers-from-desired-regions.sentinel"
   enforcement_level = "hard-manadatory"
 }
