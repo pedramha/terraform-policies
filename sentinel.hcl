@@ -10,10 +10,10 @@ policy "deployment_window" {
     enforcement_level = "advisory"
 }
 
-policy "restrict-ec2-instance-type" {
-  source = "./restrict-ec2-instance-type.sentinel"
-  enforcement_level = "soft-mandatory"
-}
+// policy "restrict-ec2-instance-type" {
+//   source = "./restrict-ec2-instance-type.sentinel"
+//   enforcement_level = "soft-mandatory"
+// }
 
 // policy "restrict-availability-zones" {
 //   source = "./restrict-availability-zones.sentinel"
