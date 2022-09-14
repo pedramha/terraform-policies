@@ -1,5 +1,5 @@
 policy "enforce-mandatory-tags" {
-    enforcement_level = "advisory"
+    enforcement_level = "soft-mandatory"
 }
 
 policy "require-private-acl-and-kms-for-s3-buckets" {
@@ -8,4 +8,14 @@ policy "require-private-acl-and-kms-for-s3-buckets" {
 
 policy "deployment_window" {
     enforcement_level = "advisory"
+}
+
+policy "restrict-ec2-instance-type" {
+  source = "./restrict-ec2-instance-type.sentinel"
+  enforcement_level = "soft-mandatory"
+}
+
+olicy "validate-providers-from-desired-regions" {
+  source = "./validate-providers-from-desired-regions.sentinel"
+  enforcement_level = "hard-manadatory"
 }
