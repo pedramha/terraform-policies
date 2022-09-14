@@ -15,10 +15,10 @@ policy "restrict-ec2-instance-type" {
   enforcement_level = "soft-mandatory"
 }
 
-policy "restrict-availability-zones" {
-  source = "./restrict-availability-zones.sentinel"
-  enforcement_level = "advisory"
-}
+// policy "restrict-availability-zones" {
+//   source = "./restrict-availability-zones.sentinel"
+//   enforcement_level = "advisory"
+// }
 
 // policy "restrict-ingress-sg-rule-cidr-blocks" {
 //   source = "./restrict-ingress-sg-rule-cidr-blocks.sentinel"
