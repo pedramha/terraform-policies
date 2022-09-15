@@ -111,5 +111,5 @@ all_buckets_encrypted_by_kms = validations["encrypted_by_kms"]
 
 # Main rule
 main = rule {
-  validations
+  all_buckets_private
 }
