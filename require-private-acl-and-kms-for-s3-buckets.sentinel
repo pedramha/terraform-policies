@@ -140,4 +140,3 @@ validated = length(nonPrivateS3Buckets["messages"]) is 0 and length(nonEncrypted
 main = rule {
   validated is true
 }
-Footer
