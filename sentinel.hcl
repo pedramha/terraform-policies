@@ -9,7 +9,3 @@ policy "require-private-acl-and-kms-for-s3-buckets" {
 policy "deployment_window" {
     enforcement_level = "advisory"
 }
-
-policy "limit-cost-by-workspace-name" {
-    enforcement_level = "advisory"
-}
