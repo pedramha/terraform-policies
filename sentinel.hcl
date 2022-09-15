@@ -10,6 +10,6 @@ policy "deployment_window" {
     enforcement_level = "advisory"
 }
 
-policy "limit-cost-by-workspace-name.sentinel" {
+policy "limit-cost-by-workspace-name" {
     enforcement_level = "advisory"
 }
