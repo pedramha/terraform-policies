@@ -3,7 +3,7 @@ policy "enforce-mandatory-tags" {
 }
 
 policy "require-private-acl-and-kms-for-s3-buckets" {
-    enforcement_level = "advisory"
+    enforcement_level = "soft-mandatory""
 }
 
 policy "deployment_window" {
